@@ -1,5 +1,9 @@
 
-#include "secrets.h"
+// secrets.h - Keep this file private!
+
+#define BLYNK_TEMPLATE_ID   "TMPLxxxxxx"
+#define BLYNK_TEMPLATE_NAME "Cable Fault Monitor"
+#define BLYNK_AUTH_TOKEN    "YourAuthTokenHere"
 
 // Include WiFi and Blynk libraries
 #include <WiFi.h>
@@ -9,6 +13,9 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+
+char ssid[] = "Your_WiFi_Name";
+char pass[] = "Your_WiFi_Password";          
 
 
 #define SCREEN_WIDTH 128
